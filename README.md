@@ -21,3 +21,6 @@ This repository includes the specification for and the firmware implementing the
      * Turn on RF beacon
   * Configure GPS tracker parameters
     * TBD
+
+## LoRaWAN stack selection
+The stack slection is important to optimize the performance of the tag. Long-term goal is to use a Semtech provided Basic MAC modem firmware implementing the full stack with advanced features, however prior to that an intermediate solution is required. Stack selection is subject to LoRa modem SX127x or SX126x, the latter bein newer and not yet very commonly supported, however preferable for our use-case.
